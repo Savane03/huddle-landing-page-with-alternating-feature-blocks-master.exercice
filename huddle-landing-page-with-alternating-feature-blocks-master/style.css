@@ -1,6 +1,78 @@
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
- body{
-   background-color: rgb(94, 188, 94);
- }
+
+:root{
+  --pink:hsl(322, 100%, 66%);
+  --pale-cyan:hsl(193, 100%, 96%);
+  --dark-cyan: hsl(192, 100%, 9%);
+  --gray-blue: hsl(208, 11%, 55%);
+}
+
+body{
+  font-size: 18px;
+  background-color: var(--pale-cyan);
+ 
+}
+    
+header{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: ce;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 10px;
+
+}
+.top img{
+  height: 16px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.top p{
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.267)  ;
+  border-radius: 14px;
+  font-size: 10px;
+  padding:3px 20px;
+  margin-right: 13px;
+
+}
+#sec1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--dark-cyan);
+}
+.description{
+  padding: 10px;
+  padding-top: 1px;
+  font-size: 17px;
+  word-spacing: 2px;
+}
+#sec1 .title{
+  font-size: 17px;
+  
+}
+.button{
+  font-family: 'Poppins';
+  font-size: 12px;
+  color: white;
+  background-color: var(--pink);
+  padding:0px 60px;
+  border-radius: 24px;
+  word-spacing: 2px;
+  margin-bottom: 50px;
+}
+#sec1 img{
+  width: 90%;
+}
