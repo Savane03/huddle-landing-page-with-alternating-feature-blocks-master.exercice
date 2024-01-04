@@ -13,6 +13,7 @@
   --pale-cyan:hsl(193, 100%, 96%);
   --dark-cyan: hsl(192, 100%, 9%);
   --gray-blue: hsl(208, 11%, 55%);
+  
 }
 
 
@@ -143,6 +144,7 @@ header{
 .pop h2{
   font-size: 18px;
   margin-bottom: 25px;
+  color: var(--dark-cyan);
 }
 
 .pop .button{
@@ -163,3 +165,118 @@ font-size: 10px;
  margin-top:100px ;
  
 }
+.location{
+  margin-top:10px;
+  display: grid;
+  grid-template-columns: 20px 300px;
+  column-gap: 20px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  
+ 
+}
+.location img{
+  margin-top: 5px;
+  width: 13px;
+}
+  
+.location p{
+  color: white;
+  font-family: 'Open sans';
+ font-size: 16px;
+ font-weight: 400;
+ 
+ text-align: left;
+}
+
+.phone{
+  display: grid;
+  grid-template-columns: 20px 350px;
+  column-gap: 20px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  
+ 
+}
+.phone img{
+  margin-top: 5px;
+  width: 17px;
+}
+  
+.phone p{
+  color: white;
+  font-family: 'Open sans';
+ font-size: 16px;
+ font-weight: 400;
+ 
+}
+.email{
+  display: grid;
+  grid-template-columns: 20px 350px;
+  column-gap: 20px;
+  margin-left: 15px;
+  
+ 
+}
+.email img{
+  margin-top: 5px;
+  width: 17px;
+}
+  
+ .email p{
+  color: white;
+  font-family: 'Open sans';
+ font-size: 16px;
+ font-weight: 400;
+ margin-bottom: 10px;
+}
+.menus{
+  margin-top:20px;
+}
+.menus ul li{
+  color: #ffffff;
+  font-family: 'Open sans';
+  line-height: 55px;
+  margin-left: 15px;
+  list-style: none;
+}
+.social{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.fb , .tw , .ig{
+  border: solid 2px #ffffff;
+  border-radius: 55px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+
+}
+.fb i{
+  width:20px;
+  text-align: center;
+}
+.tw i{
+  width:20px;
+  text-align: center;
+}
+.ig i{
+  width:20px;
+  text-align: center;
+}
+.copyright{
+  color: #ffffff;
+  font-family: 'Open sans';
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+}
+.space{
+  padding: 50px;
+  background-color: var(--dark-cyan);
+}
+
+
+
